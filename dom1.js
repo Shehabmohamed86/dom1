@@ -1,15 +1,7 @@
-
-const h1 = document.querySelector('h1');
-h1.style.color = 'orange';
-
-const p = document.querySelector('p');
-p.style.color = 'white';
-p.style.backgroundColor = 'black';
-
-const allLis = document.querySelectorAll('li');
-const colors = ['red','blue','orange','yellow','black','purble'];
-
-allLis.forEach((li,i) =>{
-  const color = colors[i];
-  li.style.color = color;
-})
+const todo = document.querySelector('.todo')
+todo.classList.add('done')
+const form = document.querySelector('form')
+const newh2 = document.createElement('h2')
+newh2.innerText = 'i love coding'
+newh2.classList.toggle('special')
+form.appendChild(newh2)

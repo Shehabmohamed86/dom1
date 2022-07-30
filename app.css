@@ -1,6 +1,9 @@
-h1{
+ h1 {
   color: purple;
-  font-size: 60px;
+ }
+h1:hover {
+  color:black;
+  font-size: 80px;
 }
 .special {
   color: teal;
@@ -14,4 +17,14 @@ input[type="password"] {
 img{
   width: 400px;
   height: 400px;
+}
+.todo {
+  font-size: 30px;
+  color: olive;
+}
+
+.done {
+  color: gray;
+  text-decoration: line-through;
+  opacity: 50%;
 }
